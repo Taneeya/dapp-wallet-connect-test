@@ -1,1 +1,135 @@
-[00:00:00.496] Server  LOG      ✓ Ready in 313ms
+[00:00:00.754] Server  LOG      ✓ Ready in 487ms
+[00:00:08.787] Server  LOG      ○ Compiling / ...
+[00:00:13.127] Server  ERROR   Trace: { context: 'core' } Initialized
+    at console.trace (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/node_modules/.pnpm/next@16.0.10_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/node-environment-extensions/console-file.js:21:44)
+    at /Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/node_modules/.pnpm/next@16.0.10_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/node-environment-extensions/console-exit.js:22:95
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at AsyncLocalStorage.exit (node:internal/async_local_storage/async_context_frame:70:17)
+    at console.trace (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/node_modules/.pnpm/next@16.0.10_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/node-environment-extensions/console-exit.js:22:71)
+    at console.trace (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/node_modules/.pnpm/next@16.0.10_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/server/node-environment-extensions/console-dim.external.js:208:47)
+    at console.trace (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/node_modules/.pnpm/next@16.0.10_@babel+core@7.28.5_react-dom@19.2.3_react@19.2.3__react@19.2.3/node_modules/next/dist/compiled/next-server/app-page-turbo.runtime.dev.js:25:83004)
+    at console.<anonymous> (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_098104b2._.js:9621:174)
+    at console.trace (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_098104b2._.js:9609:18)
+    at Oe.initialize (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/a25b7_@walletconnect_core_dist_index_38f229f7.js:3194:21)
+    at Oe.start (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/a25b7_@walletconnect_core_dist_index_38f229f7.js:3182:40)
+    at qe.initialize (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/87fa8_@walletconnect_sign-client_dist_index_c79a19ff.js:2550:29)
+    at qe.init (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/87fa8_@walletconnect_sign-client_dist_index_c79a19ff.js:2539:24)
+    at N.createClient (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_098104b2._.js:16339:362)
+    at N.initialize (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_098104b2._.js:16335:54)
+    at N.init (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_098104b2._.js:16227:24)
+    at E.initialize (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_098104b2._.js:16847:477)
+    at E.init (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_098104b2._.js:16653:24)
+    at initProvider (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_2c70ceb0._.js:7630:51)
+    at async Object.getProvider (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_2c70ceb0._.js:7650:33)
+    at async Object.setup (/Users/lijiewang/codes/A-gmjk/dapp-wallet-connect-test/.next/dev/server/chunks/ssr/node_modules__pnpm_2c70ceb0._.js:7494:34)
+[00:00:13.128] Server  TRACE   {} "Initialized"
+[00:00:13.216] Server  ERROR   ReferenceError: indexedDB is not defined
+[00:00:13.222] Server  ERROR    ⨯ "unhandledRejection:" ReferenceError: indexedDB is not defined
+[00:00:13.230] Server  ERROR    ⨯ "unhandledRejection: " ReferenceError: indexedDB is not defined
+[00:00:14.413] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:15.160] Browser WARN    Lit is in dev mode. Not recommended for production! See https://lit.dev/msg/dev-mode for more information.
+[00:00:18.564] Browser WARN    requiredNamespaces are deprecated and are automatically assigned to optionalNamespaces
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser WARN    Element w3m-router-container scheduled an update (generally because a property was set) after an update completed, causing a new update to be scheduled. This is inefficient and should be avoided unless the next update can only be scheduled as a side effect of the previous update. See https://lit.dev/msg/change-in-update for more information.
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:18.564] Browser ASSERT  true unexpected parse state B
+[00:00:19.846] Browser ERROR   {"level":50,"time":1765878449162}
+[00:00:19.847] Browser ERROR   unhandledRejection: UserRejectedRequestError: User rejected the request.
+
+Details: Connection request reset. Please try again.
+Version: viem@2.42.1
+[00:00:20.551] Browser WARN    [Reown Config] Failed to fetch remote project configuration. Using local/default values. {}
+[00:00:21.169] Browser WARN    Failed to fetch usage {}
